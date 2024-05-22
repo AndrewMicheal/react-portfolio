@@ -1,0 +1,52 @@
+.contactTitle{
+    font-size: 40px;
+}
+.contactColor{
+    color: #2c3e50;
+}
+.contactIcon{
+    position: relative;
+}
+
+.contactIcon{
+    position: relative;
+}
+.contactIcon:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: #2c3e50;
+    left: 40%;
+    top: 65%;
+}
+.contactIcon:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: #2c3e50;
+    right: 40%;
+    top: 65%;
+}
+
+.formInput{
+    border: none!important;
+    border-bottom: 1px solid #000!important;
+    outline: none;
+}
+
+.formInput:focus{
+   box-shadow: none!important;
+   outline: none;
+}
+.contactItems{
+    background-color: #2c3e50;
+}
+
+.formWidth {
+    width: 50%;
+}
+

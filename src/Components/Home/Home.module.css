@@ -1,0 +1,39 @@
+.home{
+    height: auto;
+    background-color: #1abc9c;
+}
+.homeTitle{
+    font-size: 50px;
+}
+.homeIcon{
+    position: relative;
+    margin: auto;
+}
+.homeIcon:after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: #fff;
+    left: 40%;
+    top: 65%;
+}
+.homeIcon:before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 90px;
+    height: 4px;
+    background-color: #fff;
+    right: 40%;
+    top: 65%;
+}
+
+.homeSkills{
+   font-size: 20px;
+}
+
+.image{
+    width: 10%;
+}

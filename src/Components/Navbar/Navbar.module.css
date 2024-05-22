@@ -1,0 +1,23 @@
+.myNav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+.myNavBackground{
+    background-color: #2c3e50!important;
+}
+.linkColor{
+    transition: color .5s!important;
+}
+.linkColor:hover{
+    color: #1abc9c!important;
+}
+.linkActive{
+    background-color: #1abc9c!important;
+    border-radius: 10px;
+}
+.my-nav {
+    font-weight: bold!important;
+}
